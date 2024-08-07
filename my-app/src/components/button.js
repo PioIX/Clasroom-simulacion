@@ -1,26 +1,9 @@
 "use client"
-//Compontente FUNCIONAL
-/*
-export default function Button() {
 
-    function funcion() {
-        console.log("Buenasss")
-    }
+import styles from './page.module.css';
 
+export default function Button({clase, text}) {
     return(
-        <button onClick={funcion}>Registrarme</button>
-    )
-}
-*/
-
-// PROPS
-
-//children: siempre existe, el hijo de la etiwueta html
-// Las demás uno les asigna el nombre
-
-export default function Button(props) {
-
-    return(
-        <button type="button" onClick={props.onClick}>Registrarme</button>
+        <button type="button" className={styles.button} onClick={clase}>{text}</button>
     )
 }
