@@ -8,7 +8,7 @@ export default function Home() {
     return(
         <>
             <Header/>
-            <p>Esta es la página de Historia</p> 
+            <p>Esta es la página de Lengua y literatura</p> 
         </>
     )
 }
